@@ -1,0 +1,24 @@
+function setdate(){
+
+    document.getElementById('date').innerHTML = new Date().toDateString;
+}
+body{
+    background-color: aquamarine;
+    text-align:center;
+}
+h1{
+    color:forestgreen;
+}
+div{
+    margin:15px;
+}
+
+.image-section{
+    display:flex;|
+    justify-content:center;
+}
+.section-style{
+    margin-right:25px;
+    margin-left:25px;
+    background-color:white;
+}
